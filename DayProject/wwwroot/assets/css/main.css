@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    color: white !important;
+    padding: 30px 15px;
+    border-radius: 0% !important;
+}
+
+.btn-outline-light{
+    border-radius: 0% !important;
+    padding: 8px 40px;
+    transition: 0.3s !important;
+}
+
+.btn-outline-light:hover{
+    background-color: red !important;
+    color: white;
+    border:none;
+}
+
+ul li a:hover{
+    border-radius: 0% !important;
+    background-color: red !important;
+}
+
+.active{
+    background-color: red !important;
+    border-radius: 0% !important;
+}
+
+.hero{
+    background-color: rgb(37, 37, 37) !important;
+    position: fixed;
+}
+
+
+.card {
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    z-index: -1;
+}
+
+.card h4{
+    color: red;
+}
+
+.card:hover{
+    background-color: red;
+    color: white !important;
+    padding-bottom: 10px;
+}
+
+.card:hover h4{
+    color: white !important;
+}
+
+.calltoaction{
+    padding: 70px;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0,0.4), rgba(0, 0, 0, 0.73)), url(/../assets/images/cta-bg.jpg);
+}
+
+.catactive{
+    color: red;
+}
+
+span{
+    transition: 0.3s;
+}
+
+span:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.subscribe{
+    color: white;
+    background-color: red;
+    border:none;
+    padding: 2.2px 30px;
+}
+
+.btnsend{
+    color: white;
+    background-color: red;
+    border:none;
+    padding: 10px 30px;
+}
+
+footer{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.952) !important;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+}
